@@ -1,0 +1,96 @@
+*{-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;} 
+img{
+	max-width: 100%;
+	display: block;
+}
+body{}
+header{
+    background-color: #4a4747;
+}
+.logo{
+    width: 25%;
+    float: left;
+    background-color: gray;
+    padding: 10px;
+}
+.logo img{
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #111a4a;
+}
+.logo span{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #fff;
+}
+nav{
+    width: 75%;
+    float: left;
+    text-align: right;
+    background: gray;
+    padding: 10px;
+    /* width: 100px; */
+    /* float: left; */
+    /* overflow: hidden; */
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 5px 20px;
+    color: #fff;
+}
+.banner{}
+.box{
+    width: 400px;
+    breadth: 300px;
+    color: #1b0101f5;
+    background-color: #a99e9e;
+    /* padding: 50px; */
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.box h1{}
+.box span{}
+.post{
+    background-color: aliceblue;
+}
+.post h3{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.box1{display: inline-block;/* width: 700px; */}
+.box1 img{
+    width: 400px;
+    display: inline-block;
+}
+footer{
+    background: black;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+footer h5{
+    color: white;
+    text-align: center;
+}
+.social{}
+.social ul{}
+.social ul li{
+    display: inline-block;
+    text-align: center;
+}
+.social ul li a{}
